@@ -1,0 +1,207 @@
+body{
+    background-color: #f3ea8b;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+
+}
+
+.header{
+    overflow: hidden;
+    margin: auto;
+    width: 80%;
+    background: #fcc926;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.menu{
+    display: inline-block;
+    list-style: none;
+    /* margin: 0;
+    padding: 0; */
+    float: right;
+    /* padding-top: 20px; */
+}
+
+li{
+    float: left;
+    margin-left: 15px;
+}
+
+.logo{
+    background-size: cover;
+    float: left;
+}
+
+@media screen and (max-width: 500px) {
+
+    .logo{
+        float: none;
+        text-align: center;
+    }
+
+    .menu{
+        display: inline-block;
+        margin-top: 20px;
+        float: none;
+        text-align: center;
+    }
+
+    li{
+        display: inline-block;
+        text-align: center;
+        float: none;
+        margin-right: 50%;    
+    }
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    background-color:  #f3ea8b
+}
+
+.tema{
+    color: #fcc926;
+    font-size: 50px;
+    text-align: center;   
+}
+
+@media screen and (max-width: 500px){
+    
+    .tema{
+        color:#fcc926;
+        font-size: 25px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+}
+
+.IMGLOGO{
+    background-image: url(../imagens/logo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin: 30px;
+}
+
+#modelos{
+    text-decoration: none;
+    background-image: url(../imagens/modelos.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #f3ea8b;
+    padding: 100px;
+    border-radius: 10px;
+    border: 2px solid #fcc926;
+}
+
+#modelo1{
+    text-decoration: none;
+    background-image: url(../imagens/roupas.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #f3ea8b;
+    padding: 100px;
+    border-radius: 10px;
+    border: 2px solid #fcc926;
+}
+
+@media screen and (max-width: 500px){
+    #modelo1{
+        display: inline-block;
+        text-decoration: none;
+        background-image: url(../imagens/roupas.jpg);
+        /* background-position: center; */
+        text-align: center;
+        background-size: cover;
+        color: #f3ea8b;
+        padding: 100px;
+        border-radius: 10px;
+        border: 2px solid #fcc926;
+        margin-top: 120px;
+    }
+}
+
+#modelo2{
+    text-decoration: none;
+    background-image: url(../imagens/modelo\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #f3ea8b;
+    padding: 100px;
+    border-radius: 10px;
+    border: 2px solid #fcc926;
+}
+
+@media screen and (max-width: 500px){
+    #modelo2{
+        display: inline-block;
+        text-decoration: none;
+        background-image: url(../imagens/modelo\ 2.jpg);
+        background-position: center;
+        background-size: cover;
+        color: #f3ea8b;
+        padding: 100px;
+        border-radius: 10px;
+        border: 2px solid #fcc926; 
+        margin-top: 20px;
+    }
+}
+#modelo3{
+    display: inline-block;
+    text-decoration: none;
+    background-image: url(../imagens/modelo\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #f3ea8b;
+    padding: 100px;
+    margin-top: 150px;
+    border-radius: 10px;
+    border: 2px solid #fcc926;
+}
+
+@media screen and (max-width: 500px){
+    #modelo3{
+        display: inline-block;
+        text-decoration: none;
+        background-image: url(../imagens/modelo\ 3.jpg);
+        background-position: center;
+        background-size: cover;
+        color: #f3ea8b;
+        padding: 100px;
+        margin-top: 150px;
+        border-radius: 10px;
+        border: 2px solid #fcc926;
+        margin-top: 20px;
+
+    }
+}
+
+#modelo4{
+    text-decoration: none;
+    background-image: url(../imagens/modelo\ 4.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #f3ea8b;
+    padding: 100px;
+    border-radius: 10px;
+    border: 2px solid #fcc926;
+}
+
+@media screen and (max-width: 500px){
+    #modelo4{
+        display: inline-block;
+        text-decoration: none;
+        background-image: url(../imagens/modelo\ 4.jpg);
+        background-position: center;
+        background-size: cover;
+        color: #f3ea8b;
+        padding: 100px;
+        border-radius: 10px;
+        border: 2px solid #fcc926;
+        margin-top: 20px;   
+
+    }
+}
